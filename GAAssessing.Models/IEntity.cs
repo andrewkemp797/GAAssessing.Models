@@ -9,7 +9,6 @@ namespace GAAssessing.Models
     public interface IEntity
     {
         int Id { get; set; }
-        DateTimeOffset DateCreated { get; set; }
         bool IsRetired { get; set; }
     }
 }

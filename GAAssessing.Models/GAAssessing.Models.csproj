@@ -42,6 +42,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -51,10 +52,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\MotorAssessorReportConfig.cs" />
     <Compile Include="Context\AssessingContext.cs" />
+    <Compile Include="Context\AssessingContextFactory.cs" />
     <Compile Include="Context\IAssessingContext.cs" />
     <Compile Include="Helpers\SerializationHelper.cs" />
     <Compile Include="IEntity.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MotorAssessorReport.cs" />
     <Compile Include="Models\VehicleCondition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

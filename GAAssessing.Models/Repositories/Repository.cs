@@ -276,9 +276,6 @@ namespace GAAssessing.Models.Repositories
         public virtual void Create<TEntity>(TEntity entity)
             where TEntity : class, IEntity
         {
-            
-            entity.DateCreated = DateTime.UtcNow;
-
             Context.Set<TEntity>().Add(entity);
         }
 

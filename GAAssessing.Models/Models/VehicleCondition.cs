@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +10,8 @@ namespace GAAssessing.Models.Models
 {
     public class VehicleCondition : IEntity
     {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [ForeignKey("MotorAssessorReport")]
         public int Id { get; set; }
         public int Odometer { get; set; }
         public string Steering { get; set; }
@@ -48,7 +52,8 @@ namespace GAAssessing.Models.Models
 
         public string Remarks { get; set; }
 
-        public DateTimeOffset DateCreated { get; set; }
         public bool IsRetired { get; set; }
+
+        public virtual MotorAssessorReport MotorAssessorReport { get; set; }
     }
 }
