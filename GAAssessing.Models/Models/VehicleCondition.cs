@@ -10,7 +10,7 @@ namespace GAAssessing.Models.Models
 {
     public class VehicleCondition : IEntity
     {
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         [ForeignKey("MotorAssessorReport")]
         public int Id { get; set; }
         public int Odometer { get; set; }

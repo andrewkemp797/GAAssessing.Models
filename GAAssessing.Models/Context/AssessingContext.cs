@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GAAssessing.Models.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -17,6 +18,9 @@ namespace GAAssessing.Models.Context
             Configuration.LazyLoadingEnabled = false;
             Configuration.ProxyCreationEnabled = false;
         }
+
+        public DbSet<MotorAssessorReport> MotorAssessorReport { get; set; }
+        public DbSet<VehicleCondition> VehicleCondition { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
