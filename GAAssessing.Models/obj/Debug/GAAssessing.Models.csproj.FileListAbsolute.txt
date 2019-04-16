@@ -1,0 +1,15 @@
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\GAAssessing.Models.dll.config
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\GAAssessing.Models.dll
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\GAAssessing.Models.pdb
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\EntityFramework.dll
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\EntityFramework.xml
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\Newtonsoft.Json.pdb
+D:\Git\GAAssessing.Models\GAAssessing.Models\bin\Debug\Newtonsoft.Json.xml
+D:\Git\GAAssessing.Models\GAAssessing.Models\obj\Debug\GAAssessing.Models.csprojAssemblyReference.cache
+D:\Git\GAAssessing.Models\GAAssessing.Models\obj\Debug\GAAssessing.Models.csproj.CoreCompileInputs.cache
+D:\Git\GAAssessing.Models\GAAssessing.Models\obj\Debug\GAAssessing.Models.csproj.CopyComplete
+D:\Git\GAAssessing.Models\GAAssessing.Models\obj\Debug\GAAssessing.Models.dll
+D:\Git\GAAssessing.Models\GAAssessing.Models\obj\Debug\GAAssessing.Models.pdb
