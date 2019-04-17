@@ -58,9 +58,9 @@
     <Compile Include="Context\IAssessingContext.cs" />
     <Compile Include="Helpers\SerializationHelper.cs" />
     <Compile Include="IEntity.cs" />
-    <Compile Include="Migrations\201904161309103_Initial.cs" />
-    <Compile Include="Migrations\201904161309103_Initial.Designer.cs">
-      <DependentUpon>201904161309103_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201904170800170_Initial.cs" />
+    <Compile Include="Migrations\201904170800170_Initial.Designer.cs">
+      <DependentUpon>201904170800170_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MotorAssessorReport.cs" />
@@ -74,8 +74,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201904161309103_Initial.resx">
-      <DependentUpon>201904161309103_Initial.cs</DependentUpon>
+    <Content Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201904170800170_Initial.resx">
+      <DependentUpon>201904170800170_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

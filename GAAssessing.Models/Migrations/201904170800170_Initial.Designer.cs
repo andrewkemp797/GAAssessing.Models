@@ -13,7 +13,7 @@ namespace GAAssessing.Models.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201904161309103_Initial"; }
+            get { return "201904170800170_Initial"; }
         }
         
         string IMigrationMetadata.Source

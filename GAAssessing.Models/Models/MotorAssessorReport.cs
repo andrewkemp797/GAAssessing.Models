@@ -10,7 +10,6 @@ namespace GAAssessing.Models.Models
 {
     public class MotorAssessorReport : IEntity
     {
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Insurance { get; set; }
         public string Client { get; set; }
