@@ -62,6 +62,10 @@
     <Compile Include="Migrations\201904170800170_Initial.Designer.cs">
       <DependentUpon>201904170800170_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904171305258_VehicleConditionModelChange.cs" />
+    <Compile Include="Migrations\201904171305258_VehicleConditionModelChange.Designer.cs">
+      <DependentUpon>201904171305258_VehicleConditionModelChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MotorAssessorReport.cs" />
     <Compile Include="Models\VehicleCondition.cs" />
@@ -79,6 +83,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201904170800170_Initial.resx">
       <DependentUpon>201904170800170_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904171305258_VehicleConditionModelChange.resx">
+      <DependentUpon>201904171305258_VehicleConditionModelChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

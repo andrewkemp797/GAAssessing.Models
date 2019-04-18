@@ -23,18 +23,18 @@ namespace GAAssessing.Models.Models
         public string PaintCondition { get; set; }
         public string PaintColour { get; set; }
 
-        public bool AirConditioner { get; set; }
-        public bool MagWheels { get; set; }
-        public bool Sunroof { get; set; }
-        public bool Spotlights { get; set; }
-        public bool Towbar { get; set; }
-        public bool RunningBoards { get; set; }
-        public bool Radio { get; set; }
-        public bool Speakers { get; set; }
-        public bool CentralLocking { get; set; }
-        public bool Immobiliser { get; set; }
-        public bool BullBar { get; set; }
-        public bool BootSpoiler { get; set; }
+        public string AirConditioner { get; set; }
+        public string MagWheels { get; set; }
+        public string Sunroof { get; set; }
+        public string Spotlights { get; set; }
+        public string Towbar { get; set; }
+        public string RunningBoards { get; set; }
+        public string Radio { get; set; }
+        public string Speakers { get; set; }
+        public string CentralLocking { get; set; }
+        public string Immobiliser { get; set; }
+        public string BullBar { get; set; }
+        public string BootSpoiler { get; set; }
 
         public string GeneralCondition { get; set; }
         public string MissingItems { get; set; }
