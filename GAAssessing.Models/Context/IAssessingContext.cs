@@ -13,6 +13,7 @@ namespace GAAssessing.Models.Context
     {
         DbSet<MotorAssessorReport> MotorAssessorReport { get; set; }
         DbSet<VehicleCondition> VehicleCondition { get; set; }
+        DbSet<Photo> Photo { get; set; }
 
         Database Database { get; }
         void SetModified(IEntity entity);

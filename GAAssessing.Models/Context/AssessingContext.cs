@@ -21,6 +21,7 @@ namespace GAAssessing.Models.Context
 
         public DbSet<MotorAssessorReport> MotorAssessorReport { get; set; }
         public DbSet<VehicleCondition> VehicleCondition { get; set; }
+        public DbSet<Photo> Photo { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
