@@ -15,6 +15,11 @@ namespace GAAssessing.Models.Configuration
             HasOptional(o => o.VehicleCondition)
                 .WithRequired(r => r.MotorAssessorReport)
                 .WillCascadeOnDelete(true);
+
+            HasMany(m => m.Photos)
+                .WithRequired(r => r.MotorAssessorReport)
+                .HasForeignKey(f => f.MotorAssessorReportId)
+                .WillCascadeOnDelete(true);
         }
     }
 }

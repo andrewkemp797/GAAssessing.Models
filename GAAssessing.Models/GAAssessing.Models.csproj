@@ -66,8 +66,13 @@
     <Compile Include="Migrations\201904171305258_VehicleConditionModelChange.Designer.cs">
       <DependentUpon>201904171305258_VehicleConditionModelChange.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905051839501_MotorAssessorReport_Photos.cs" />
+    <Compile Include="Migrations\201905051839501_MotorAssessorReport_Photos.Designer.cs">
+      <DependentUpon>201905051839501_MotorAssessorReport_Photos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MotorAssessorReport.cs" />
+    <Compile Include="Models\Photo.cs" />
     <Compile Include="Models\VehicleCondition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IRepository.cs" />
@@ -86,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904171305258_VehicleConditionModelChange.resx">
       <DependentUpon>201904171305258_VehicleConditionModelChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905051839501_MotorAssessorReport_Photos.resx">
+      <DependentUpon>201905051839501_MotorAssessorReport_Photos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

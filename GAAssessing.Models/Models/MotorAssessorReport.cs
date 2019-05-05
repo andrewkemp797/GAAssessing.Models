@@ -22,5 +22,6 @@ namespace GAAssessing.Models.Models
         public bool IsRetired { get; set; }
 
         public virtual VehicleCondition VehicleCondition { get; set; }
+        public virtual ICollection<Photo> Photos { get; set; }
     }
 }
